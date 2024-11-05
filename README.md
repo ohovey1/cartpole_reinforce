@@ -68,9 +68,11 @@ The optimizer used for this task was Adam, with a learning rate of 0.01. Several
 
 To test the performance of the model, please run
 
-        python evaluation.py
+    python evaluation.py
 
-This uses a pretrained model, which was training in the cartpole notebook. This notebook also includes more detailed documentation on the implementation process.
+This uses the pretrained model saved as "cartpole_agent.pth", which was trained in the cartpole notebook. 
+
+This notebook also includes more detailed documentation on the implementation process.
 
 ## Challenges Faced
 
@@ -78,7 +80,7 @@ The largest challenge faced during this task was unstable training. Calling the 
 
 Some results ended with average rewards nearing 500 (which is the maximum) and other times with average rewards of under 100. 
 
-This is common in REINFORCE training. One step to mitigate this was to set random seeds during initialization for reproducability. I also experimented with increased training time, which also lead to more stable training. In the future, it could be worth implementing a learning rate scheduler to see if this made training more stable.
+This is common in REINFORCE training. One step to mitigate this was to set random seeds during initialization for reproducability. I experimented with increased training time, which also lead to more stable training. In the future, it could be worth implementing a learning rate scheduler to see if this made training more stable.
 
 ## Conclusions and Visualization
 
