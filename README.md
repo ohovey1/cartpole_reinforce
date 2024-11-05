@@ -84,7 +84,7 @@ This is common in REINFORCE training. One step to mitigate this was to set rando
 
 Despite inconsistent training, we were still able to train a model with near perfect performance. Below is the average rewards per episode:
 
-![alt text](image.png)
+![alt text](rewards_chart.png)
 
 Example run:
 
